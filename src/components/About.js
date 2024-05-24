@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import paceman from '../paceman.svg';
 
 class About extends React.Component {

@@ -1,5 +1,5 @@
 Body{
-  background-color:gray;
+  background-color:rgb(253, 253, 253);
   padding: 16px
 }
 
@@ -8,15 +8,7 @@ Body{
 }
 
 a {
-  color: antiquewhite;
-}
-
-p,h2 {
-  color:white;
-}
-
-li {
-  color: white;
+  color: rgb(4, 78, 4);
 }
 
 p strong{
@@ -31,8 +23,7 @@ p strong{
 .App-header {
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
-  padding: 16px;
+  color: rgba(15, 15, 15, 0.966);
 }
 
 .App-link {

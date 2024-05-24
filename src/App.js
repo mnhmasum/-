@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { HashRouter as Router, Route, Link } from "react-router-dom";
+import { HashRouter as Router, Route } from "react-router-dom";
 import './Styles/App.css';
 import Home from './components/Home.js';
 import About from './components/About.js';
@@ -12,7 +12,7 @@ class App extends Component {
     return (
       <Router>
         <div className="App">
-        <div className="Topnav">
+          <div className="Topnav" style={Style.navStyle}>
             {/* <div><Link style={Style.link} to="/">Home</Link></div>
             <div><Link style={Style.link} to="/users/">Writes</Link> </div>
             <div><Link style={Style.link} to="/about/">About</Link> </div> */}

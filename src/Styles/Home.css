@@ -1,0 +1,64 @@
+.resume {
+  font-family: Arial, sans-serif;
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 20px;
+}
+
+header {
+  margin-bottom: 20px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header p {
+  margin: 5px 0;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+h2 {
+  color: #007bff;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.job {
+  margin-bottom: 20px;
+}
+
+.job h3 {
+  margin: 5px 0;
+}
+
+.job p {
+  margin: 5px 0;
+}
+
+.horizontal-point {
+  display: flex;
+}
+
+.horizontal-point p, div {
+  margin-right: 20px; /* Adjust as needed */
+}
+
+.horizontal-point p:last-child {
+  margin-right: 0; /* Remove margin from the last link */
+}
+
+.company-title {
+  font-size: 20px;
+}
+
+.duration {
+  font-size: 14px;
+  color: navy;
+}
