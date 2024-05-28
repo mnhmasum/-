@@ -17,12 +17,18 @@ header p {
   margin: 5px 0;
 }
 
+.headline-medium {
+  color: rgb(0, 118, 165);
+  font-weight: 600;
+  font-size: 1.2em;
+}
+
 section {
   margin-bottom: 30px;
 }
 
-h2 {
-  color: #007bff;
+h3 {
+  color: black;
 }
 
 ul {
@@ -46,12 +52,15 @@ ul {
   display: flex;
 }
 
-.horizontal-point p, div {
-  margin-right: 20px; /* Adjust as needed */
+.horizontal-point p,
+div {
+  margin-right: 20px;
+  /* Adjust as needed */
 }
 
 .horizontal-point p:last-child {
-  margin-right: 0; /* Remove margin from the last link */
+  margin-right: 0;
+  /* Remove margin from the last link */
 }
 
 .company-title {

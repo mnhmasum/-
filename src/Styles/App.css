@@ -1,5 +1,5 @@
-Body{
-  background-color:rgb(253, 253, 253);
+Body {
+  background-color: rgb(253, 253, 253);
   padding: 16px
 }
 
@@ -8,10 +8,10 @@ Body{
 }
 
 a {
-  color: rgb(4, 78, 4);
+  color: rgb(0, 118, 165);
 }
 
-p strong{
+p strong {
   font-size: 20px;
 }
 
@@ -21,10 +21,30 @@ p strong{
 }
 
 .App-header {
+  color: rgb(71, 74, 75);
   justify-content: center;
+
   font-size: calc(10px + 2vmin);
-  color: rgba(15, 15, 15, 0.966);
 }
+
+.App-header p {
+  justify-content: center;
+  font-size: calc(14px + 2vmin);
+  font-weight: 500;
+}
+
+.App-header span {
+  justify-content: center;
+  font-size: calc(14px + 2vmin);
+  color: rgb(0, 118, 165);
+}
+
+.App-header div {
+  justify-content: center;
+  font-size: calc(10px + 1vmin);
+  color: rgb(102, 100, 100);
+}
+
 
 .App-link {
   color: #61dafb;
@@ -34,6 +54,7 @@ p strong{
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
