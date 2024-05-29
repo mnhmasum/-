@@ -50,6 +50,8 @@ ul {
 
 .horizontal-point {
   display: flex;
+  margin-top: 20px;
+
 }
 
 .horizontal-point p,
@@ -65,9 +67,18 @@ div {
 
 .company-title {
   font-size: 20px;
+  font-weight: 400;
 }
 
 .duration {
-  font-size: 14px;
-  color: navy;
+  font-size: calc(10px + 0.6vmin);
+  color: rgb(102, 100, 100);
+}
+
+li span {
+  font-weight: 500;
+}
+
+.right-space {
+  margin-right: 4px;
 }

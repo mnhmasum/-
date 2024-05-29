@@ -11,8 +11,9 @@ function App() {
 
          </header>
          <section>
-            <div><a href="mailto:mnhmasum@gmail.com">mnhmasum@gmail.com</a></div>
-            <div><a href="https://wa.me/+8801911291186">+8801911291186</a></div>
+            <div><a href="mailto:mnhmasum@gmail.com"><li className="right-space fa fa-envelope"></li>mnhmasum@gmail.com</a></div>
+            <div><a href="https://wa.me/+8801911291186"><li className="right-space fa fa-phone"></li>+8801911291186</a></div>
+
             <div className="horizontal-point">
                <p><a href="https://www.linkedin.com/in/nazmul-hasan-masum"><i className="fab fa-linkedin"></i></a></p>
                <p><a href="https://github.com/mnhmasum"><i className="fab fa-github"></i></a></p>
@@ -66,17 +67,45 @@ function App() {
 
          <section>
             <div className="headline-medium">Projects</div>
-            <li>Gemini</li>
-            <li>iSecure</li>
-            <li>SRS Manager</li>
-            <li>English to Bangali Dictionary</li>
-            <li>BLE Device Scanner</li>
-            <li>Chefonline</li>
-            <li>Augmedix</li>
+            <p>
+               <div><b>Gemini Commercial Security</b></div>
+               <div>It&apos;s a complete home automation system based on Zwave, Blutooth Low energy, TCP/IP protocol. Integrated Access Control Systems from 8 to 255 zones/points. The App is supported on phones/smart devices for universality.</div>
+               <div>Website: <a href="https://t.ly/gFWy8">App Download Link</a></div>
+            </p>
+
+            <p>
+               <div><b>Citywide iLock</b></div>
+               <div>iLock application is used to control AlarmLock Bluetooth enabled Locks. This iLock app can be use in place of a proximity credential.</div>
+               <div>Website: <a href="https://play.google.com/store/apps/details?id=com.napcosecurity.ilockcitylink">App Download Link</a></div>
+            </p>
+
+            <p>
+               <div><b>iSecure Alarm Security</b></div>
+               <div>iSecure Smart Consumer App provides Security and Connected Home Control + Notification Alerts for multiple consumers within a protected premises/household.</div>
+               <div>Website: <a href="https://play.google.com/store/apps/details?id=com.napcosecurity.iBridge2.isecure">App Download Link</a></div>
+            </p>
+
+            <p>
+               <div><b>ChefOnline - Online Takeaways</b></div>
+               <div>The perfect online food ordering app, designed to bring your favourite takeaway straight to you in just three simple step</div>
+               <div>Website: <a href="https://play.google.com/store/apps/details?id=com.chefonline.chefonline">App Download Link</a></div>
+            </p>
+
+            <p>
+               <div><b>English to Bangla Dictionary</b></div>
+               <div>English to Bangla/বাংলা Offline (no internet connection required) Dictionary is a very fast and light weight dictionary application. User can easily find Bangla/Bengali/বাংলা meaning/অর্থ from english word.</div>
+               <div>Website: <a href="https://play.google.com/store/apps/details?id=com.artifactslab.dictionary">App Download Link</a></div>
+            </p>
+            <p>
+               <div><b>ChefOnline Partner</b></div>
+               <div>The ChefOnline Partner app is the answer to everything you need for your restaurant management. We have a variety of services for restaurant owners throughout the UK to promote the craft of great eating. Join our platform and be among the top restaurant businesses with diverse cuisine types from all across the country.</div>
+               <div>Website: <a href="https://play.google.com/store/apps/details?id=com.lechef.SRSITAPP">App Download Link</a></div>
+            </p>
+
          </section>
 
          <section>
-            <div className="headline-medium">Experience</div>
+            <p className="headline-medium">Experience</p>
             <div className='company-title'>Adaptive Enterprise Limited</div>
             <div className='duration'>Senior Software Engineer, May 2018 - Present (6 years 1 month)</div>
             <ul>
@@ -127,10 +156,11 @@ function App() {
             </ul>
          </section>
          <section>
-            <h2>Education</h2>
-            <p>Bangladesh University, Bachelor of Science (BSc), Computer Science and Engineering (2011 - 2014)</p>
-            <p>Dhaka Polytechnic Institute, Diploma Engineering, Computer Science (2006 - 2010)</p>
-            <p>Shamsul Haque Khan School and College, S.S.C, High School/Secondary Certificate Programs (1994 - 2006)</p>
+            <div className="headline-medium">Education</div>
+            <p>
+               <li><span>B.Sc. Computer Science and Engineering</span>, Bangladesh University (2011 - 2014)</li>
+               <li><span>Diploma in Computer Technology</span>, Dhaka Polytechnic Institute (2006 - 2010)</li>
+            </p>
          </section>
       </div>
    );
