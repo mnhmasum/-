@@ -44,9 +44,9 @@ section ul li::marker {
   font-size: 14px;
 }
 
-.horizontal-point a {
+.horizontal-point div a {
   text-decoration: none;
-  color: black;
+  color: rgb(63, 62, 62);
 }
 
 .horizontal-point p:last-child {
@@ -58,6 +58,7 @@ section ul li::marker {
   font-size: 20px;
   font-weight: 400;
 }
+
 
 .secondary-title,
 .duration {
@@ -75,7 +76,7 @@ section ul li::marker {
 }
 
 .bottom-gap {
-  margin-bottom: 24px;
+  margin-top: 24px;
 }
 
 li span,
@@ -90,4 +91,10 @@ div span {
 .mobile-icon {
   color: rgb(0, 118, 165);
   padding-right: 4px;
+}
+
+.social-icon {
+  color: rgb(0, 118, 165);
+  padding-right: 4px;
+  font-size: 24px;
 }

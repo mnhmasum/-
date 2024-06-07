@@ -7,24 +7,24 @@ function App() {
       <div className="App">
          <header className="App-header">
             <div className='App-header title'>Nazmul Hasan <span>Masum</span></div>
-            <div className='.secondary-title'>Senior Software Engineer</div>
+            <div className='subtitle'>Senior Software Engineer</div>
 
-            <div className="horizontal-point" style={{ marginTop: '4px' }}>
+            <div className="horizontal-point" style={{ marginTop: '8px' }}>
                <div><i className="fas fa-envelope mobile-icon"></i> <a href="mailto:mnhmasum@gmail.com"> mnhmasum@gmail.com</a></div>
                <div><i className="fas fa-mobile-alt mobile-icon"></i> <a href="https://wa.me/+8801911291186"> +8801911291186</a></div>
-               <div><i className="fas fa-map-marker-alt mobile-icon"></i> <a href="#"> Dhaka, Bangladesh</a></div>
+               <div><i className="fas fa-map-marker-alt mobile-icon"></i><a href="https://wa.me/+8801911291186">Dhaka, Bangladesh</a></div>
             </div>
          </header>
 
          <section>
             <div className="horizontal-point" >
-               <div><a href="https://www.linkedin.com/in/nazmul-hasan-masum"><i className="fab fa-linkedin"></i></a></div>
-               <div><a href="https://github.com/mnhmasum"><i className="fab fa-github"></i></a></div>
-               <div><a href="https://stackoverflow.com/users/4384513/masum"><i className="fab fa-stack-overflow"></i></a></div>
-               <div><a href="https://medium.com/@mnhmasum"><i className="fab fa-medium"></i></a></div>
-               <div>
+               <div><a href="https://www.linkedin.com/in/nazmul-hasan-masum"><i className="fab fa-linkedin social-icon"></i></a></div>
+               <div><a href="https://github.com/mnhmasum"><i className="fab fa-github social-icon"></i></a></div>
+               <div><a href="https://stackoverflow.com/users/4384513/masum"><i className="fab fa-stack-overflow social-icon"></i></a></div>
+               <div><a href="https://medium.com/@mnhmasum"><i className="fab fa-medium social-icon"></i></a></div>
+               <div style={{marginTop:'10px'}}>
                   <a href="https://leetcode.com/u/mnhmasum/">
-                     <img width="20" height="20" src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png" alt="LeetCode" className="custom-icon" />
+                     <img width="30" height="30" src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png" alt="LeetCode"/>
                   </a>
                </div>
 
