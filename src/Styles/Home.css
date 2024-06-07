@@ -1,68 +1,57 @@
-.resume {
-  font-family: Arial, sans-serif;
-  margin: 0 auto;
-  max-width: 600px;
-  padding: 20px;
+section {
+  margin-top: 20px;
 }
 
-header {
-  margin-bottom: 20px;
+section ul {
+  list-style-position: outside;
+  padding-left: 20px;
 }
 
-header h1 {
-  margin: 0;
-}
-
-header p {
-  margin: 5px 0;
+section ul li::marker {
+  font-size: .8em;
 }
 
 .headline-medium {
   color: rgb(0, 118, 165);
   font-weight: 600;
   font-size: 1.2em;
+  padding-top: 8px;
+  padding-bottom: 8px;
 }
 
-section {
-  margin-bottom: 30px;
-}
-
-h3 {
+.headline-small {
   color: black;
-}
-
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-.job {
-  margin-bottom: 20px;
-}
-
-.job h3 {
-  margin: 5px 0;
-}
-
-.job p {
-  margin: 5px 0;
+  font-weight: 500;
+  font-size: 1em;
+  padding-top: 4px;
+  padding-bottom: 4px;
 }
 
 .horizontal-point {
   display: flex;
-  margin-top: 20px;
-
 }
 
-.horizontal-point p,
-div {
+.horizontal-point p {
   margin-right: 20px;
   /* Adjust as needed */
 }
 
+.horizontal-point div {
+  margin-top: 4px;
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+
+.horizontal-point a {
+  text-decoration: none;
+  color: black;
+}
+
 .horizontal-point p:last-child {
   margin-right: 0;
-  /* Remove margin from the last link */
+
 }
 
 .company-title {
@@ -70,15 +59,35 @@ div {
   font-weight: 400;
 }
 
+.secondary-title,
 .duration {
-  font-size: calc(10px + 0.6vmin);
-  color: rgb(102, 100, 100);
+  font-size: calc(10px + 0.5vmin);
+  color: rgb(63, 62, 62);
+  margin-top: 4px;
 }
 
-li span {
+.mid-bold {
+  font-weight: 500;
+}
+
+.top-gap {
+  margin-top: 24px;
+}
+
+.bottom-gap {
+  margin-bottom: 24px;
+}
+
+li span,
+div span {
   font-weight: 500;
 }
 
 .right-space {
   margin-right: 4px;
+}
+
+.mobile-icon {
+  color: rgb(0, 118, 165);
+  padding-right: 4px;
 }
