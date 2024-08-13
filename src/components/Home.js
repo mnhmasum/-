@@ -106,7 +106,7 @@ function App() {
          <section>
             <div className="headline-medium">Experience</div>
             <div className='company-title'>Adaptive Enterprise Limited</div>
-            <div className='duration'>Senior Software Engineer, May 2018 - Present (6 years 1 month)</div>
+            <div className='duration'>Senior Software Engineer, May 2018 - Present (6 years 3 month)</div>
             <ul>
                <li> IoT Integration: Developed smart thermostat and lock solutions using Z-Wave and BLE</li>
                <li> Geofencing: Implemented location-based services to enhance application functionalities</li>
@@ -118,7 +118,7 @@ function App() {
                <li> Code Reviews and Mentorship: Conducted code reviews and mentored junior developers</li>
             </ul>
             <div className='company-title'>Augmedix</div>
-            <div className='duration'>Senior Software Engineer, April 2017 - April 2018 (1 year 1 month)</div>
+            <div className='duration'>Senior Software Engineer, April 2017 - March 2018 (1 year)</div>
             <ul>
                <li> Developed applications for Google Glass and Android smartphones</li>
                <li> Contributed key features to the main application</li>
@@ -128,7 +128,7 @@ function App() {
                <li> Engaged in extensive memory optimization efforts in the main application</li>
             </ul>
             <div className='company-title'>ChefOnline</div>
-            <div className='duration'>Android Developer, March 2015 - January 2017 (1 year 11 months)</div>
+            <div className='duration'>Android Developer, March 2015 - December 2016 (1 year 10 months)</div>
             <ul>
                <li> Developed FOOD online order app with Android MVP pattern, SignalR, Firebase push notification, and payment gateway</li>
                <li> Implemented auto order system for Android POS device, ensuring efficient order management and delivery</li>
@@ -138,7 +138,7 @@ function App() {
                <li> Designed custom components for intuitive UI</li>
             </ul>
             <div className='company-title'>Atomix System Ltd.</div>
-            <div className='duration'>Mobile Application Developer, March 2014 - March 2015 (1 year 1 month)</div>
+            <div className='duration'>Programmer, March 2014 - February 2015 (1 Year)</div>
             <ul>
                <li> Developed and maintained native Android apps for phones and tablets</li>
                <li> Integrated third-party libraries, APIs, and Google Maps</li>
@@ -146,7 +146,7 @@ function App() {
                <li> Collaborated with teams, conducted code reviews, and provided feedback</li>
             </ul>
             <div className='company-title'>VU Mobile Ltd (ZED Group)</div>
-            <div className='duration'>Software Engineer, December 2012 - March 2014 (1 year 4 months)</div>
+            <div className='duration'>Software Engineer, November 2012 - March 2014 (1 year 4 months)</div>
             <ul>
                <li> Developed streaming app with content download for offline viewing</li>
                <li> Integrated VAS services for personalized recommendations, in-app purchases, and subscriptions</li>
