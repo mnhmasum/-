@@ -22,9 +22,9 @@ function App() {
                <div><a href="https://github.com/mnhmasum"><i className="fab fa-github social-icon"></i></a></div>
                <div><a href="https://stackoverflow.com/users/4384513/masum"><i className="fab fa-stack-overflow social-icon"></i></a></div>
                <div><a href="https://medium.com/@mnhmasum"><i className="fab fa-medium social-icon"></i></a></div>
-               <div style={{marginTop:'10px'}}>
+               <div style={{ marginTop: '10px' }}>
                   <a href="https://leetcode.com/u/mnhmasum/">
-                     <img width="30" height="30" src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png" alt="LeetCode"/>
+                     <img width="30" height="30" src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png" alt="LeetCode" />
                   </a>
                </div>
 
@@ -58,37 +58,104 @@ function App() {
          </section>
 
          <section>
+            <div className="headline-medium">Experience</div>
+            <div className='job'>
+               <div className='company-title'>Adaptive Enterprise Limited</div>
+               <div className='designation'>Senior Software Engineer <span className='duration'>• May 2018 - Present (6 years 3 month)</span></div>
+               <ul>
+                  <li> IoT Integration: Developed smart thermostat and lock solutions using Z-Wave and BLE</li>
+                  <li> Geofencing: Implemented location-based services to enhance application functionalities</li>
+                  <li> Network Communication: Ensured reliable and secure communication using TCP/IP protocols</li>
+                  <li> Android Development: Led projects using MVP and MVVM for clean architecture</li>
+                  <li> Reactive Programming: Utilized RxJava for managing asynchronous data and events</li>
+                  <li> Java to Kotlin Migration: Converted complex app from Java to Kotlin, improving performance</li>
+                  <li> Project Leadership: Led projects from concept to deployment, coordinating cross-functional teams</li>
+                  <li> Code Reviews and Mentorship: Conducted code reviews and mentored junior developers</li>
+               </ul>
+            </div>
+            <div className='job'>
+               <div className='company-title'>Augmedix</div>
+               <div className='designation'>Senior Software Engineer <span className='duration'>• April 2017 - March 2018 (1 year)</span></div>
+               <ul>
+                  <li> Developed applications for Google Glass and Android smartphones</li>
+                  <li> Contributed key features to the main application</li>
+                  <li> Implemented POC in a Google Glass alternative device</li>
+                  <li> Conducted research on emerging smart glasses technologies</li>
+                  <li> Developed GUI based application to reduce ADB command line dependencies</li>
+                  <li> Engaged in extensive memory optimization efforts in the main application</li>
+               </ul>
+            </div>
+
+            <div className='job'>
+               <div className='company-title'>ChefOnline</div>
+               <div className='designation'>Android Developer <span className='duration'>• March 2015 - December 2016 (1 year 10 months)</span></div>
+               <ul>
+                  <li> Developed FOOD online order app with Android MVP pattern, SignalR, Firebase push notification, and payment gateway</li>
+                  <li> Implemented auto order system for Android POS device, ensuring efficient order management and delivery</li>
+                  <li> Integrated SignalR for real-time communication, enhancing user experience and order processing</li>
+                  <li> Utilized Firebase push notification for timely updates</li>
+                  <li> Integrated third-party payment gateway for secure and convenient payments</li>
+                  <li> Designed custom components for intuitive UI</li>
+               </ul>
+            </div>
+
+            <div className='job'>
+               <div className='company-title'>Atomix System Ltd.</div>
+               <div className='designation'>Programmer <span className='duration'>• March 2014 - February 2015 (1 Year)</span></div>
+               <ul>
+                  <li> Developed and maintained native Android apps for phones and tablets</li>
+                  <li> Integrated third-party libraries, APIs, and Google Maps</li>
+                  <li> Employed background tasks and services for optimization</li>
+                  <li> Collaborated with teams, conducted code reviews, and provided feedback</li>
+               </ul>
+            </div>
+
+            <div className='job'>
+               <div className='company-title'>VU Mobile Ltd (ZED Group)</div>
+               <div className='designation'>Software Engineer <span className='duration'>• November 2012 - March 2014 (1 year 4 months)</span></div>
+               <ul>
+                  <li> Developed streaming app with content download for offline viewing</li>
+                  <li> Integrated VAS services for personalized recommendations, in-app purchases, and subscriptions</li>
+                  <li> Collaborated with content providers for high-quality streaming content</li>
+                  <li> Utilized analytics and user feedback to improve app performance</li>
+               </ul>
+            </div>
+
+         </section>
+
+         <section>
             <div className="headline-medium">Certifications</div>
             <div>
-               <div><span> Oracle Certified Professional, Java SE 6 Programmer(OCPJP)</span></div>
-               <div className='secondary-title'>Issued By: <span className='mid-bold'>Oracle</span></div>
+               <div className='mid-bold'>Oracle Certified Professional, Java SE 6 Programmer(OCPJP)</div>
+               <div className='secondary-title'>Issued By: <span className='secondary-title'>Oracle</span></div>
                <div className='secondary-title'>Credential Id: <a href="https://www.credly.com/badges/0d99b65e-5825-49c1-8766-79deaebb5384">OC1661596</a></div>
             </div>
 
             <div className='top-gap'>
-               <div><span>Kotlin for Java Developers</span></div>
+               <div className='mid-bold'>Kotlin for Java Developers</div>
                <div className='secondary-title'>Issued By: <span className='mid-bold'>Coursera</span></div>
                <div className='secondary-title'>Credential Id: <a href="https://www.coursera.org/account/accomplishments/certificate/7Y38Y4TGG9RR">7Y38Y4TGG9RR</a></div>
             </div>
 
             <div className="top-gap">
-               <div><span>Python 3 Programming</span></div>
+               <div className='mid-bold'>Python 3 Programming</div>
                <div className='secondary-title'>Issued By: <span className='mid-bold'>Coursera</span></div>
                <div className='secondary-title'>Credential Id: <a href="https://coursera.org/share/f22b60ac1d6d082bce667c17fa584c26">FAPHYQ3S2DYU</a></div>
             </div>
 
             <div className='top-gap'>
-               <div><span>Math for Data Science</span></div>
+               <div className='mid-bold'><span>Math for Data Science</span></div>
                <div className='secondary-title'>Issued By: <span className='mid-bold'>Coursera</span></div>
                <div className='secondary-title'>Credential Id: <a href="https://www.coursera.org/account/accomplishments/certificate/BS9JTGN3DR5G">BS9JTGN3DR5G</a></div>
             </div>
 
-            {/* <div className='top-gap'>
-               <div><span>Engineering Maintainable Android Apps</span></div>
+            <div className='top-gap'>
+               <div className='mid-bold'><span>Engineering Maintainable Android Apps</span></div>
                <div className='secondary-title'>Issued By: <span className='mid-bold'>Coursera</span></div>
                <div className='secondary-title'>Credential Id: <a href="https://www.coursera.org/account/accomplishments/certificate/GE74N4AL9UW8">GE74N4AL9UW8</a></div>
             </div>
 
+            {/* 
             <div className='top-gap'>
                <div><span>Introduction to CSS3</span></div>
                <div className='secondary-title'>Issued By: <span className='mid-bold'>Coursera</span></div>
@@ -101,58 +168,6 @@ function App() {
                <div className='secondary-title'>Credential Id: <a href="https://www.coursera.org/account/accomplishments/verify/HN276GWES45G">HN276GWES45G</a></div>
             </div> */}
 
-         </section>
-
-         <section>
-            <div className="headline-medium">Experience</div>
-            <div className='company-title'>Adaptive Enterprise Limited</div>
-            <div className='duration'>Senior Software Engineer, May 2018 - Present (6 years 3 month)</div>
-            <ul>
-               <li> IoT Integration: Developed smart thermostat and lock solutions using Z-Wave and BLE</li>
-               <li> Geofencing: Implemented location-based services to enhance application functionalities</li>
-               <li> Network Communication: Ensured reliable and secure communication using TCP/IP protocols</li>
-               <li> Android Development: Led projects using MVP and MVVM for clean architecture</li>
-               <li> Reactive Programming: Utilized RxJava for managing asynchronous data and events</li>
-               <li> Java to Kotlin Migration: Converted complex app from Java to Kotlin, improving performance</li>
-               <li> Project Leadership: Led projects from concept to deployment, coordinating cross-functional teams</li>
-               <li> Code Reviews and Mentorship: Conducted code reviews and mentored junior developers</li>
-            </ul>
-            <div className='company-title'>Augmedix</div>
-            <div className='duration'>Senior Software Engineer, April 2017 - March 2018 (1 year)</div>
-            <ul>
-               <li> Developed applications for Google Glass and Android smartphones</li>
-               <li> Contributed key features to the main application</li>
-               <li> Implemented POC in a Google Glass alternative device</li>
-               <li> Conducted research on emerging smart glasses technologies</li>
-               <li> Developed GUI based application to reduce ADB command line dependencies</li>
-               <li> Engaged in extensive memory optimization efforts in the main application</li>
-            </ul>
-            <div className='company-title'>ChefOnline</div>
-            <div className='duration'>Android Developer, March 2015 - December 2016 (1 year 10 months)</div>
-            <ul>
-               <li> Developed FOOD online order app with Android MVP pattern, SignalR, Firebase push notification, and payment gateway</li>
-               <li> Implemented auto order system for Android POS device, ensuring efficient order management and delivery</li>
-               <li> Integrated SignalR for real-time communication, enhancing user experience and order processing</li>
-               <li> Utilized Firebase push notification for timely updates</li>
-               <li> Integrated third-party payment gateway for secure and convenient payments</li>
-               <li> Designed custom components for intuitive UI</li>
-            </ul>
-            <div className='company-title'>Atomix System Ltd.</div>
-            <div className='duration'>Programmer, March 2014 - February 2015 (1 Year)</div>
-            <ul>
-               <li> Developed and maintained native Android apps for phones and tablets</li>
-               <li> Integrated third-party libraries, APIs, and Google Maps</li>
-               <li> Employed background tasks and services for optimization</li>
-               <li> Collaborated with teams, conducted code reviews, and provided feedback</li>
-            </ul>
-            <div className='company-title'>VU Mobile Ltd (ZED Group)</div>
-            <div className='duration'>Software Engineer, November 2012 - March 2014 (1 year 4 months)</div>
-            <ul>
-               <li> Developed streaming app with content download for offline viewing</li>
-               <li> Integrated VAS services for personalized recommendations, in-app purchases, and subscriptions</li>
-               <li> Collaborated with content providers for high-quality streaming content</li>
-               <li> Utilized analytics and user feedback to improve app performance</li>
-            </ul>
          </section>
 
          <section>
@@ -197,8 +212,8 @@ function App() {
          <section>
             <div className="headline-medium">Education</div>
             <div>
-               <li><span>B.Sc. Computer Science and Engineering</span>, Bangladesh University (2011 - 2014)</li>
-               <li><span>Diploma in Computer Technology</span>, Dhaka Polytechnic Institute (2006 - 2010)</li>
+               <li><span>B.Sc. Computer Science and Engineering</span>, Bangladesh University (2011 - 2014) • CGPA 3.64</li>
+               <li><span>Diploma in Computer Technology</span>, Dhaka Polytechnic Institute (2006 - 2010) • CGPA 3.55</li>
             </div>
          </section>
       </div>

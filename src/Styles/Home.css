@@ -60,10 +60,19 @@ section ul li::marker {
 }
 
 
-.secondary-title,
-.duration {
+.secondary-title {
   font-size: calc(10px + 0.5vmin);
-  color: rgb(63, 62, 62);
+  color: rgb(46, 45, 45);
+  margin-top: 4px;
+}
+
+.designation {
+  color: rgb(44, 43, 43);
+}
+
+.duration {
+  font-size: calc(9px + 0.5vmin);
+  color: rgb(112, 110, 110);
   margin-top: 4px;
 }
 
@@ -76,11 +85,10 @@ section ul li::marker {
 }
 
 .bottom-gap {
-  margin-top: 24px;
+  margin-bottom: 24px;
 }
 
-li span,
-div span {
+li span{
   font-weight: 500;
 }
 

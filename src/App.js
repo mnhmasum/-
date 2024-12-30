@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { HashRouter as Router, Route } from "react-router-dom";
-import './Styles/App.css';
 import Home from './components/Home.js';
 import About from './components/About.js';
 import UsaRadioAll from './components/UsaRadioAll.js';
@@ -13,9 +12,7 @@ class App extends Component {
       <Router>
         <div className="App">
           <div className="Topnav" style={Style.navStyle}>
-            {/* <div><Link style={Style.link} to="/">Home</Link></div>
-            <div><Link style={Style.link} to="/users/">Writes</Link> </div>
-            <div><Link style={Style.link} to="/about/">About</Link> </div> */}
+          
           </div>
           <header className="App">
             <Route path="/" exact component={Home} />
