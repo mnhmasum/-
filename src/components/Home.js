@@ -63,7 +63,7 @@ function App() {
                <div className='company-title'>Adaptive Enterprise Limited</div>
                <div className='designation'>Senior Software Engineer <span className='duration'>• May 2018 - Present (6 years 3 month)</span></div>
                <ul>
-                  <li> IoT Integration: Developed smart thermostat and lock solutions using Z-Wave and BLE</li>
+                  <li> IoT Integration: Developed smart home automation system using smart node device based on Z-Wave and Bluetooth low energy protocol</li>
                   <li> Geofencing: Implemented location-based services to enhance application functionalities</li>
                   <li> Network Communication: Ensured reliable and secure communication using TCP/IP protocols</li>
                   <li> Android Development: Led projects using MVP and MVVM for clean architecture</li>
@@ -73,7 +73,7 @@ function App() {
                   <li> Code Reviews and Mentorship: Conducted code reviews and mentored junior developers</li>
                </ul>
             </div>
-            <div className='job'>
+            <div className='job margintop-for-print-mid'>
                <div className='company-title'>Augmedix</div>
                <div className='designation'>Senior Software Engineer <span className='duration'>• April 2017 - March 2018 (1 year)</span></div>
                <ul>
@@ -86,7 +86,7 @@ function App() {
                </ul>
             </div>
 
-            <div className='job'>
+            <div className='job margintop-for-print'>
                <div className='company-title'>ChefOnline</div>
                <div className='designation'>Android Developer <span className='duration'>• March 2015 - December 2016 (1 year 10 months)</span></div>
                <ul>
@@ -127,7 +127,7 @@ function App() {
             <div className="headline-medium">Certifications</div>
             <div>
                <div className='mid-bold'>Oracle Certified Professional, Java SE 6 Programmer(OCPJP)</div>
-               <div className='secondary-title'>Issued By: <span className='secondary-title'>Oracle</span></div>
+               <div className='secondary-title'>Issued By: <span className='mid-bold'>Oracle</span></div>
                <div className='secondary-title'>Credential Id: <a href="https://www.credly.com/badges/0d99b65e-5825-49c1-8766-79deaebb5384">OC1661596</a></div>
             </div>
 
@@ -154,19 +154,18 @@ function App() {
                <div className='secondary-title'>Issued By: <span className='mid-bold'>Coursera</span></div>
                <div className='secondary-title'>Credential Id: <a href="https://www.coursera.org/account/accomplishments/certificate/GE74N4AL9UW8">GE74N4AL9UW8</a></div>
             </div>
-
-            {/* 
+         
             <div className='top-gap'>
-               <div><span>Introduction to CSS3</span></div>
+               <div className='mid-bold'><span>Introduction to CSS3</span></div>
                <div className='secondary-title'>Issued By: <span className='mid-bold'>Coursera</span></div>
                <div className='secondary-title'>Credential Id: <a href="https://coursera.org/share/63ce1da4e1179bd8aa435b394d1df8ac">G5UW3MGBBWQB</a></div>
             </div>
 
             <div className='top-gap'>
-               <div><span>Version Contro</span></div>
+               <div className='mid-bold'><span>Version Control</span></div>
                <div className='secondary-title'>Issued By: <span className='mid-bold'>Coursera</span></div>
                <div className='secondary-title'>Credential Id: <a href="https://www.coursera.org/account/accomplishments/verify/HN276GWES45G">HN276GWES45G</a></div>
-            </div> */}
+            </div>
 
          </section>
 
@@ -198,9 +197,10 @@ function App() {
 
             <div className='bottom-gap'>
                <div className='headline-small'>English to Bangla Dictionary</div>
-               <div>English to Bangla/বাংলা Offline (no internet connection required) Dictionary is a very fast and light weight dictionary application. User can easily find Bangla/Bengali/বাংলা meaning/অর্থ from english word.</div>
+               <div>English to Bangla Offline (no internet connection required) Dictionary is a very fast and light weight dictionary application. User can easily find Bengali meaning from english word.</div>
                <div>Website: <a href="https://play.google.com/store/apps/details?id=com.artifactslab.dictionary">App Download Link</a></div>
             </div>
+
             <div className='bottom-gap'>
                <div className='headline-small'>ChefOnline Partner</div>
                <div>The ChefOnline Partner app is the answer to everything you need for your restaurant management. We have a variety of services for restaurant owners throughout the UK to promote the craft of great eating. Join our platform and be among the top restaurant businesses with diverse cuisine types from all across the country.</div>
@@ -212,8 +212,8 @@ function App() {
          <section>
             <div className="headline-medium">Education</div>
             <div>
-               <li><span>B.Sc. Computer Science and Engineering</span>, Bangladesh University (2011 - 2014) • CGPA 3.64</li>
-               <li><span>Diploma in Computer Technology</span>, Dhaka Polytechnic Institute (2006 - 2010) • CGPA 3.55</li>
+               <li><span>B.Sc. Computer Science and Engineering </span>, Bangladesh University (2011 - 2014) • CGPA 3.64 (Scale out of 4.0)</li>
+               <li><span>Diploma in Computer Technology</span>, Dhaka Polytechnic Institute (2006 - 2010) • CGPA 3.55 (Scale out of 4.0)</li>
             </div>
          </section>
       </div>

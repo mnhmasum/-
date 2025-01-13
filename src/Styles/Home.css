@@ -88,7 +88,7 @@ section ul li::marker {
   margin-bottom: 24px;
 }
 
-li span{
+li span {
   font-weight: 500;
 }
 
@@ -105,4 +105,13 @@ li span{
   color: rgb(0, 118, 165);
   padding-right: 4px;
   font-size: 24px;
+}
+
+@media print {
+  .margintop-for-print {
+    margin-top: 24px;
+  }
+  .margintop-for-print-mid {
+    margin-top: 54px;
+  }
 }
